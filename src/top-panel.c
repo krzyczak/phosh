@@ -60,6 +60,7 @@ typedef struct _PhoshTopPanel {
   gboolean           on_lockscreen;
 
   /* Top row above settings */
+  GtkWidget *btn_settings;
   GtkWidget *btn_power;
   GtkWidget *menu_power;
   GtkWidget *btn_lock;
@@ -681,6 +682,7 @@ phosh_top_panel_class_init (PhoshTopPanelClass *klass)
                                                "/sm/puri/phosh/ui/top-panel.ui");
   gtk_widget_class_bind_template_child (widget_class, PhoshTopPanel, arrow);
   gtk_widget_class_bind_template_child (widget_class, PhoshTopPanel, menu_power);
+  gtk_widget_class_bind_template_child (widget_class, PhoshTopPanel, btn_settings);
   gtk_widget_class_bind_template_child (widget_class, PhoshTopPanel, btn_power);
   gtk_widget_class_bind_template_child (widget_class, PhoshTopPanel, btn_lock);
   gtk_widget_class_bind_template_child (widget_class, PhoshTopPanel, batteryinfo);

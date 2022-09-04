@@ -121,7 +121,7 @@ msgstr "No"
 
 #: src/lockscreen.c:152 src/ui/lockscreen.ui:239
 msgid "Enter Passcode"
-msgstr "Enter Passcode"
+msgstr "(en-GB.po) Enter Passcode"
 
 #: src/lockscreen.c:335
 msgid "Checking…"

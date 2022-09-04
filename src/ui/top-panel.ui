@@ -92,6 +92,24 @@
                 </child>
               </object>
             </child>
+            <!-- James Rose added -->
+            <child>
+              <object class="GtkButton" id="btn_settings">
+                <property name="visible">True</property>
+                <property name="sensitive" bind-source="PhoshTopPanel" bind-property="on-lockscreen" bind-flags="sync-create|invert-boolean"/>
+                <property name="action-name">panel.lockscreen</property>
+                <style>
+                  <class name="phosh-topbar-button"/>
+                </style>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">True</property>
+                    <property name="icon-name">cog-settings-symbolic</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <!-- James Rose added END -->
             <child>
               <object class="GtkMenuButton" id="btn_power">
                 <property name="visible">True</property>

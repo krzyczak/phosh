@@ -229,7 +229,7 @@
                   <object class="GtkLabel" id="lbl_unlock_status">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Enter Passcode</property>
+                    <property name="label" translatable="yes">(src/ui/lockscreen.ui): Enter Passcode</property>
                     <attributes>
                       <attribute name="font-desc" value="Cantarell 16"/>
                     </attributes>
