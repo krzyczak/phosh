@@ -166,7 +166,7 @@ clear_input (PhoshLockscreen *self, gboolean clear_all)
   PhoshLockscreenPrivate *priv = phosh_lockscreen_get_instance_private (self);
 
   if (clear_all) {
-    gtk_label_set_label (GTK_LABEL (priv->lbl_unlock_status), _("Enter Passcode"));
+    gtk_label_set_label (GTK_LABEL (priv->lbl_unlock_status), _("(src/lockscreen.c) Enter Passcode"));
     gtk_editable_delete_text (GTK_EDITABLE (priv->entry_pin), 0, -1);
   } else {
     g_signal_emit_by_name (priv->entry_pin, "backspace", NULL);
