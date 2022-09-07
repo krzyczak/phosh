@@ -103,7 +103,7 @@
                 <child>
                   <object class="GtkImage">
                     <property name="visible">True</property>
-                    <property name="icon-name">padlock-symbolic</property>
+                    <property name="icon-name">cog-settings-symbolic</property>
                   </object>
                 </child>
               </object>
